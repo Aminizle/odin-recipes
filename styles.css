@@ -1,5 +1,6 @@
 .index,.steak,.potatoes,.mushrooms{
     background-color: rgb(163, 39, 39);
+
 }
 
 .nav-index {
@@ -10,5 +11,7 @@
     margin: 0;
     padding: 0;
     height: 80px;
-    justify-content: right;
+    justify-content: center;
+    text-align: center;
+    
 }
