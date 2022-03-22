@@ -1,17 +1,57 @@
+:root {
+    --light-background-color:#caf0f8;
+    --light-text-color: black;
+    --light-navbar-background-color:#219ebc;
+    --light-navbar-text-color:black;
+    --light-navbar-hover-background-color: #023047;
+
+
+    --dark-background-color:#023047;
+    --dark-text-color: whitesmoke;
+    --dark-navbar-background-color:#023047;
+    --dark-navbar-text-color:whitesmoke;
+    --dark-navbar-hover-background-color: #219ebc;
+}
 .index,.steak,.potatoes,.mushrooms{
-    background-color: rgb(163, 39, 39);
+   background-color: var(--light-background-color);
+  
 
 }
 
 .nav-index {
-    display: flex;
-    border: 0 black solid;
-    background-color: black;
-    color: white;
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;    
+    background-color: var(--light-navbar-background-color);
+    color: var(--light-navbar-text-color);
+
     margin: 0;
-    padding: 0;
-    height: 80px;
-    justify-content: center;
-    text-align: center;
-    
+    height: 80px;    
+
 }
+
+nav>ul>li {
+    margin-right: 2rem;
+    color: black;
+
+    overflow: hidden;
+}
+
+nav>ul>li>a {
+    display: block;
+    text-align: center;
+    padding: 30px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav>ul>li>a:hover {
+    background-color: var(--light-navbar-hover-background-color);
+    color: whitesmoke;
+}
+nav>ul>li>button {
+
+}
+    
