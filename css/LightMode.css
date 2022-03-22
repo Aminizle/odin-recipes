@@ -5,11 +5,4 @@
     --light-navbar-background-color:#219ebc;
     --light-navbar-text-color:black;
     --light-navbar-hover-background-color: #023047;
-
-    /*DARK MODE*/
-    --dark-background-color:#023047;
-    --dark-text-color: whitesmoke;
-    --dark-navbar-background-color:#023047;
-    --dark-navbar-text-color:whitesmoke;
-    --dark-navbar-hover-background-color: #219ebc;
 }
