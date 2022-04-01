@@ -1,5 +1,5 @@
 // Select the button
-const btn = document.querySelector('button');
+const btn = document.querySelector(h1);
 // Select the stylesheet <link>
 const theme = document.querySelector("#theme-link");
 
@@ -17,6 +17,10 @@ const theme = document.querySelector("#theme-link");
 //});
 
 // test if button works
-btn.addEventListener('click', () => {
-    alert("The button was clicked!");
-});
+//btn.addEventListener('click', () => {
+ // console.log("hi")  
+ // alert("The button was clicked!");
+
+//});
+
+console.log(btn)
