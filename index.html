@@ -8,21 +8,33 @@
     <link rel="stylesheet" href="css\lightMode.css" id="theme-link">
     <link rel="stylesheet" href="css\darkMode.css" id="theme-link">
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   
 
     <title>recipes</title>
 
 </head>
 <body class="index"> 
-        <nav>
-             <ul class="nav-index">
-                <li><a href="\recipes\steak.html">Steak</a></li>
-                <li><a href="\recipes\Stuffed Mushrooms.html">Stuffed mushrooms</a></li>
-                <li><a href="\recipes\potatoes.html">Crisp Sautéed Potatoes</a></li>
-                <li><button class="btn-toggle" id="button" type="button"><a href="#"></a>Order Now!</button></li>
-            </ul>
-        </nav>
-    <h1>Tonights dinner suggestions.</h1>
+  
+<!--Navigation bar-->
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+    <h1 class="box">Tonights dinner suggestions.</h1>
+    <form>  
+        <button onclick="changeColor('Blue')"> Dark Mode</button> 
+     
+        <button onclick="changeColor()">Text Color Reset</button>
+      </form>
     
-   
-</body>
+  
+</body> 
+
 </html>
