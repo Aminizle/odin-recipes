@@ -5,15 +5,18 @@
 }
 
 .nav-index {
-    display: flex;    
+    display: flex;   
+    flex: 1; 
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;    
     background-color: var(--light-navbar-background-color);
     color: var(--light-navbar-text-color);
     margin: 0;
-    height: 80px;    
+    height: 80px;
+        
+    
 
 }
 
