@@ -20,7 +20,6 @@
 nav>ul>li {
     margin-right: 2rem;
     color: black;
-
     overflow: hidden;
 }
 
@@ -36,7 +35,3 @@ nav>ul>li>a:hover {
     background-color: var(--light-navbar-hover-background-color);
     color: whitesmoke;
 }
-nav>ul>li>button {
-
-}
-    
